@@ -2,6 +2,12 @@ footer p{
     padding:0;
     margin: 0;
 }
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'IBM Plex Serif', serif;
     padding: 0%;
@@ -68,14 +74,7 @@ hr {
     border: 3px solid #EFEFEF;
 }
 
-.imagetext{
-    position: absolute;
-    left:0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    border: 1px solid #f00;
-}
+
 
 .btn30pct{
     position: relative;
@@ -111,6 +110,10 @@ hr {
     pointer-events: none;
 }
 
+img {
+    width: 100%;
+}
+
 .imagecard {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 1em;
@@ -121,7 +124,7 @@ hr {
 }
 
 .imagecard:hover {
-    transform: scale(1.01);
+    transform: scale(1.005);
     
 }
 
