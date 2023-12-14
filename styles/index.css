@@ -137,10 +137,6 @@ section p {
 
 @media (max-width:680px)  { 
 
-    main figure {
-        width: 30%;
-    }
-
     .btbg img {
         border: 3px solid  #f0be5d;
     }
@@ -156,4 +152,10 @@ section p {
     .imagecard {
         width: 80%;
     }
+}
+
+@media (min-width:680px) {
+
+
+
 }
